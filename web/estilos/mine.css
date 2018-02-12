@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 29, 2016, 6:16:16 PM
+    Author     : Diana Salas
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Amatica+SC|Anton|Berkshire+Swash|Covered+By+Your+Grace|Delius+Unicase|Syncopate');
+@font-face {
+ font-family: phoenix;
+ src: url("../bootstrap/fonts/PHOES___.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: phoenix;
+ src: url("../bootstrap/fonts/PHOES___.TTF") /* TTF file for CSS3 browsers */
+}
+
+.jumbotron{
+    height: 135px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.table{
+    font-family: "Unica One";
+}
+
+
+/*color de barra de navegacion*/
+/* cambiar tipo de letra */
+nav.navbar ul.nav li {
+    font-family: 'Unica one';
+    font-size: 20px;
+}
+ 
+/* cambiar el color de fondo a la barra */
+.navbar-nav .active, .navbar-header, .navbar ul li, .navbar-brand , .navbar-collapse{
+    background-color:  #904098;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color:  #904098;
+}
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+        height: 400px;
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 0px;
+      background-color: white;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #2dc4d7;
+      color: #904098;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+          height:auto;
+      } 
+    }
+    
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 250px;
+      margin: auto;
+      height: 300px;
+  }
+  
+  form, p{
+      font-family: "Unica one";
+  }
+  h1{
+      font-family: "phoenix";
+      color: #904098;
+  }
+  h3{
+      font-family: "phoenix";
+      color: #2dc4d7;
+  }
+  section{  
+    height: 1000px;
+}
+button[type=submit] {
+      padding: 10px 20px;
+      background-color: #904098;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn pull-right{
+      padding: 10px 20px;
+      background-color: #904098;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+      font-family: "Unica One";
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  
+  .btn btn-default, btn btn-info btn-lg{
+      padding: 10px 20px;
+      background-color: #904098;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+      font-family: "Unica One";
+  }
+  button[type=button] {
+      padding: 10px 20px;
+      background-color: #904098;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .margin{
+      margin-left: 10px;
+  }
+
+#modalMargen{
+  width: 80% !important;
+}
+
+#botella{
+    width: 100px;
+    height: 150px;
+}
